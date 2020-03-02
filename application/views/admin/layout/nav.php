@@ -43,7 +43,7 @@
               <p>
                 Master Data
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">6</span>
+                <span class="badge badge-info right">8</span>
               </p>
             </a>
             <ul class="nav nav-treeview">
@@ -72,21 +72,27 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo base_url('suplier') ?>" class="nav-link">
+                <a href="<?php echo base_url('master_data/list_suplier') ?>" class="nav-link">
                   <i class="fas fa-user"></i>
                   <p>Suplier</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo base_url('pegawai') ?>" class="nav-link">
+                <a href="<?php echo base_url('master_data/list_pegawai') ?>" class="nav-link">
                   <i class="fas fa-user"></i>
                   <p>Pegawai</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo base_url('anggota') ?>" class="nav-link">
+                <a href="<?php echo base_url('master_data/list_anggota') ?>" class="nav-link">
                   <i class="fas fa-user"></i>
                   <p>Anggota</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo base_url('master_data/list_toko') ?>" class="nav-link">
+                  <i class="fas fa-table"></i>
+                  <p>Toko</p>
                 </a>
               </li>
             </ul>

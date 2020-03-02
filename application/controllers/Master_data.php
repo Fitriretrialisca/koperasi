@@ -87,5 +87,88 @@ class master_data extends CI_Controller{
                 );
     $this->load->view('admin/layout/wrapper', $data, FALSE);
   }
-
+  public function list_suplier()
+  {
+    $data = array('title' => 'Halaman Suplier',
+                  'isi'   =>'master_data/list_suplier'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function add_suplier()
+  {
+    $data = array('title' => 'Tambah Suplier',
+                  'isi'   => 'master_data/add_suplier'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function simpan_suplier()
+  {
+    $data = array('title' => 'Simpan Suplier',
+                  'isi'   => 'master_data/simpan_suplier'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function list_pegawai()
+  {
+    $data = array('title' => 'Halaman Pegawai',
+                  'isi'   =>'master_data/list_pegawai'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function add_pegawai()
+  {
+    $data = array('title' => 'Tambah Pegawai',
+                  'isi'   => 'master_data/add_pegawai'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function simpan_pegawai()
+  {
+    $data = array('title' => 'Simpan Pegawai',
+                  'isi'   => 'master_data/simpan_pegawai'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function list_anggota()
+  {
+    $data = array('title' => 'Halaman Anggota',
+                  'isi'   =>'master_data/list_anggota'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function add_anggota()
+  {
+    $data = array('title' => 'Tambah Anggota',
+                  'isi'   => 'master_data/add_anggota'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function simpan_anggota()
+  {
+    $data = array('title' => 'Simpan Anggota',
+                  'isi'   => 'master_data/simpan_anggota'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function list_toko()
+  {
+    $data = array('title' => 'Halaman Toko',
+                  'isi'   =>'master_data/list_toko'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function add_toko()
+  {
+    $data = array('title' => 'Tambah Toko',
+                  'isi'   => 'master_data/add_toko'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
+  public function simpan_toko()
+  {
+    $data = array('title' => 'Simpan Toko',
+                  'isi'   => 'master_data/simpan_toko'
+                );
+    $this->load->view('admin/layout/wrapper', $data, FALSE);
+  }
 }
